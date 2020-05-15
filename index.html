@@ -9,26 +9,34 @@
   </head>
   <body>
     <main class="main">
-      <article>
-        <div class="business-card-photo">
-            <img src="avatar.png" alt="slack_photo" height="148" width="148">
-        </div>
-        <div class="business-card-description">
-        <header>
-          <h1>Bartłomiej Gargula</h1>
-          <p>Frontend Developer wannabe</p>
+      <article class="person">
+        <img
+          class="person__picture"
+          src="avatar.png"
+          alt="zdjęcie"
+          height="148"
+          width="148"
+        />
+        <header class="person__info">
+          <h1 class="person__name">Bartłomiej Gargula</h1>
+          <p class="person__position">Frontend Developer wannabe</p>
         </header>
-        <p>
-          Programista z kilkunastodniowym doświadczeniem, fotograf, operator
-          drona, właściciel Sokoła Millennium (na razie tylko z Lego), prelegent
-          i szkoleniowiec. Uwielbia eksperymentować z nowymi technologiami, w
-          swojej twórczości ocierając się o sztukę.
+        <p class="person__description person__description--with-margin">
+          Programista z
+          <span class="span-special">kilkunastodniowym doświadczeniem</span>,
+          fotograf, operator drona, właściciel Sokoła Millennium (na razie tylko
+          z Lego),<span class="span-special"> prelegent i szkoleniowiec</span>.
+          Uwielbia eksperymentować z nowymi technologiami, w swojej twórczości
+          ocierając się o sztukę.
         </p>
-        <p>
-          W sieci: Facebook, GitHub, Instagram.
+        <p class="person__description">
+          W sieci: <a class="person__link" href="#">Facebook</a>,<a
+            class="person__link"
+            href="#"
+          >
+            GitHub</a
+          > <a class="person__link" href="#">,Instagram.</a>
         </p>
-    </div>
-    </div>
       </article>
     </main>
   </body>
